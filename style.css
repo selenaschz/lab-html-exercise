@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+    font-family: 'Poppins';
+    margin: 1rem;
+  }
+
+/*--Header top--*/
+.header > div {
+    padding: 10 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.black-heart {
+    width: 20px;
+    margin: 0 1rem;
+}
+
+/*Nav*/
+.menu-bar {
+    width: 600px;
+}
+
+.menu-ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-bar a {
+    text-decoration: none;
+    color: black;
+}
+
+/*--Header Bottom--*/
+.logo {
+    width: 80px;
+    margin: 1rem;
+}
+
+/*Search bar*/
+.search-bar {
+    color: rgba(0,0,0,.05);
+}
+
+.search-button {
+    background-color: #fb3e44;
+    color: white;
+    height: 30px;
+    border-style: none;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.search-input {
+    position: relative;
+}
+
+.search-input > input {
+    height: 30px;
+    background-color: rgb(235, 235, 235);
+    border: none;
+    padding-left: 40px;
+}
+
+.magnifying-glass {
+    position: absolute;
+    top: 0.5em;
+    left: 0.5em;
+}
+
+.magnifying-glass {
+    width: 20px;
+    position: absolute;
+}
+
+.user-access > a {
+    text-decoration: none;
+    color: black;
+}
+
+.join-button {
+    border: 1px inset rgb(202, 202, 202);
+    padding: 0.3em 0.8em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+
+/*--Section 1: Introduction--*/
+
+#introduction {
+    background-color: rgba(232,217,217,.3);
+}
+
+.flex-center {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#introduction h1 {
+    font-size: 5rem;
+    font-weight: 900;
+    margin: 0 auto;
+}
+
+#introduction .text-intro {
+    width: 28em;
+    margin-bottom: 2em;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.user-actions > a {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 1em 3em;
+    font-weight: 700;
+}
+
+.user-actions .see-plans {
+    background-color: #FB3B49;
+    color: white;
+    box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+}
+
+.user-actions .join-free {
+    color: black;
+}
+
+/*--Section 2. Description--*/
+#description .triangle-hexagon {
+    width: 250px;
+    margin: 50px;
+}
+
+#description > h2 {
+    background-color: rgba(255,204,53,.4);
+    transform: skew(9deg, 0deg);
+    font-style: italic;
+    font-size: 2em;
+    word-spacing: 0.2em;
+    font-weight: 900;
+    padding: 0 2em;
+    margin: 10px;
+}
+
+#description .npm-info {
+    width: 780px;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+/*--Section 3. Features--*/
+#features {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#features .features-container {
+    display: flex;
+    justify-content: center;
+}
+
+#features .feature-item {
+    margin: 3em;
+}
+
+#features img {
+    width: 50px;
+
+}
+
+#features h3 {
+    color: #ED1C24;
+    margin-bottom: 1.5em;
+}
+
+#features p {
+    width: 16em;
+}
+
+/*Button*/
+.create-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+#features > .create-container > a {
+    background-color: black;
+    color: white;
+    box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    align-items: center;
+    width: 10rem;
+}
+
